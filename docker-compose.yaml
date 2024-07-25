@@ -12,7 +12,8 @@ services:
     # build:
     #   dockerfile: ./php/Dockerfile
     volumes:
-      - ./app:/app
+      # - ./app:/app
+      - ./session-02:/app/public
   # php
   # mysql
   # redis
