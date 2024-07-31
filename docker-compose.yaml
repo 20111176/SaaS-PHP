@@ -13,7 +13,7 @@ services:
     #   dockerfile: ./php/Dockerfile
     volumes:
       # - ./app:/app
-      - ./session-02:/app/public
+      - ./session-03:/app/public
   # php
   # mysql
   # redis
